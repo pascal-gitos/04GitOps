@@ -22,7 +22,7 @@ jobs:
 
       - name: Run hello.py
         run: |
-          echo "Run: Hello.py"
+          echo "Run: hello.py"
           python hello.py
 
       - name: Test execution completed
