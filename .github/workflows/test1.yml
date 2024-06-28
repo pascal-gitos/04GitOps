@@ -8,10 +8,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
       - name: Set up Python
         uses: action/setup-python@v2
         with:
           python-version: '3.x'
-      - name Run hello.py
-    run: python hello.py
+          
+      - name: Run hello.py
+        run: python hello.py
 
