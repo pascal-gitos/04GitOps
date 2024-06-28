@@ -1,2 +1,2 @@
-ptint("github action")
+print("github action")
 
