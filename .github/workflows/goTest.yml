@@ -1,13 +1,17 @@
 name: Go Test
 
-on: [push]
+on: 
+  push:
+    branches: 
+      - main
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  go_test:
+    runs-on: [ubuntu-latest]
 
     steps:
-    - uses: actions/setup-go@v5.0.1
+    - name: go 
+      uses: actions/setup-go@v5.0.1
 
     - name: Set up Go
       uses: action/setup-go@v2
