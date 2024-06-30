@@ -22,4 +22,4 @@ jobs:
       run: cd goCode && go build main.go
 
     - name: Test
-      run: cd goCode && go build main.go
+      run: cd goCode && go run main.go
