@@ -13,7 +13,7 @@ func Uppercase(input string) string {
 	return strings.ToUpper(input)
 }
 
-func main1() {
+func main() {
 	fmt.Println("Concatenated strings:", Concatenate("String", "concatenate"))
 	fmt.Println("Uppercase string:", Uppercase("string uppercase"))
 }
