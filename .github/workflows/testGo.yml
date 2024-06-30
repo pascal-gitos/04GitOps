@@ -20,7 +20,7 @@ jobs:
         go-version: '1.20'
 
     - name: Build
-      run: go build stringutils_test.go
+      run: cd goCode && go test ./...
 
     - name: Test
-      run: go test stringutils_test.go
+      run: cd goCode && go test ./...
