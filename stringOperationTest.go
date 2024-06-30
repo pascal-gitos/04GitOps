@@ -17,6 +17,6 @@ func TestUppercase(t *testing.T) {
 	result := Uppercase("string uppercase")
 	expected := "STRING UPPERCASE"
 	if result != expected {
-		printf.Error("Upppercase test failed. Expected: %s, got %s", expected, result)
+		t.Error("Upppercase test failed. Expected: %s, got %s", expected, result)
 	}
 }
